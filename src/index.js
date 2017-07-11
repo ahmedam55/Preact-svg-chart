@@ -32,7 +32,7 @@ class App extends Component {
 class Chart extends Component {
     render({ data }) {
         return (
-            <svg width="420" height="120">
+            <svg class="chart" width="420" height="120">
 			  {data.map((item ,i)=>
 			  	<rect
 		  			width="40"
